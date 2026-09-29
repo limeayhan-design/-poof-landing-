@@ -1,0 +1,114 @@
+/* Legal pages (privacy, terms) — same brand DNA as landing, reading-first layout. */
+
+.legal {
+  position: relative;
+  z-index: 1;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 24px 80px;
+  color: #FFFFFF;
+  line-height: 1.65;
+  font-size: 15.5px;
+}
+
+.legal-head {
+  margin-bottom: 40px;
+}
+
+.back-link {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  margin-bottom: 24px;
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  transition: background 0.2s ease;
+}
+
+.back-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.legal h1 {
+  font-size: clamp(32px, 6vw, 44px);
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 6px;
+  color: #FFFFFF;
+  text-shadow: 0 2px 24px rgba(10, 46, 107, 0.25);
+}
+
+.effective {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.1px;
+  margin: 0;
+}
+
+.legal section {
+  margin-bottom: 32px;
+}
+
+.legal h2 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  margin: 0 0 12px;
+  color: #FFFFFF;
+}
+
+.legal h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 18px 0 8px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.legal p {
+  margin: 0 0 12px;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.legal ul {
+  margin: 0 0 14px;
+  padding-left: 22px;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.legal li {
+  margin-bottom: 6px;
+}
+
+.legal strong {
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.legal a {
+  color: #B3D4FF;
+  text-decoration: underline;
+  text-decoration-color: rgba(179, 212, 255, 0.4);
+  text-underline-offset: 2px;
+  transition: color 0.2s ease;
+}
+
+.legal a:hover {
+  color: #FFFFFF;
+  text-decoration-color: rgba(255, 255, 255, 0.7);
+}
+
+.legal-foot {
+  margin-top: 56px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.1px;
+  text-align: center;
+}
